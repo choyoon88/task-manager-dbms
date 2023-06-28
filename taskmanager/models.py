@@ -29,4 +29,5 @@ class Task(db.Model):
             self.id, self.task_name, self.is_urgent
         )
         # or we can return this,
-        # return f"#{self.id} - Task: {self.task_name} | Urgent: {self.is_urgent}"
+        # return f"#{self.id} - Task: {self.task_name} | Urgent: {
+        # self.is_urgent}"
